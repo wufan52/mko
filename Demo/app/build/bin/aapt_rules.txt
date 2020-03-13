@@ -1,0 +1,12 @@
+# view AndroidManifest.xml #generated:16
+-keep class com.mko.doo.App { <init>(...); }
+
+# view AndroidManifest.xml #generated:26
+-keep class com.mko.doo.MainActivity { <init>(...); }
+
+# onClick res/layout/main.xml #generated:47
+-keepclassmembers class * { *** get(...); }
+
+# onClick res/layout/main.xml #generated:35
+-keepclassmembers class * { *** put(...); }
+
